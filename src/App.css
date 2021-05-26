@@ -1,0 +1,106 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+header{
+  background-color: #282c34;
+  padding: 10px;
+}
+
+.counter-container{
+  padding-left: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subtitle{
+  font-size: 20px;
+  text-align: center;
+}
+
+button{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  border : none
+}
+
+.yellow {
+  background-color: rgb(161, 161, 92);
+  color: whitesmoke;
+}
+
+.green{
+  background-color: teal;
+  color: whitesmoke;
+}
+
+.grey{
+  background-color: #3d424b;
+  color: whitesmoke;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+}
+
+.form-bg{
+  width: 40%;
+  background-color: rgb(101, 125, 173);
+}
+.form{
+  background-color: rgb(233, 231, 227);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.form-group span {
+  color: white;
+  font-size: 20px;
+}
+
+.form-group button {
+  width: 20%;
+}
